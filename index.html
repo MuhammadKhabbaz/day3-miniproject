@@ -2,23 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="C:\Users\MuhammadKhabbaz\bootcamp\day3-miniproject\style.css">
 </head>
-<header>
-    <ul>
-        <li>Git Hub</li>
-        <li>Contact Info</li>
-    </ul>
-</header>
-<body>
-    <section>
-        <img src="C:\Users\MuhammadKhabbaz\Downloads\download.jpg" alt="John">
-    </section>
-    <section>
 
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li id="margin"><a href=#contactlink>Contact Form</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section class="container">
+        <H1>My New Website</H1>
+        <img src="C:\Users\MuhammadKhabbaz\Downloads\download.png" alt="400x400px image soon to be added"></img>
+        <p>400x400 image</p>
     </section>
+    <section id="contactlink" class="container2">
+        <H1>Contact Form</H1>
+        <form class="contact">
+            <label id="block">Name:</label> <input type="text" id="name" name="user_name"/>
+            <label id=block>Email:</label> <input type="email" id="email" name="user_email"/>
+            <label id=block>Phone Number:</label> <input type="tel" id = "phonenumber" name="user_phone"/>
+            <div class="button-position"><button type="submit">SUBMIT</button></div>
+        </form>
+    </section>
+
+    <footer>
+        <H3>2023 Bootcamp First Website</H3>
+    </footer>
 </body>
-<footer>
-    
-</footer>
+
+</html>
